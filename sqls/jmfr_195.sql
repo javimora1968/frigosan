@@ -1,0 +1,1 @@
+alter table dba.fr_consec_animales modify bascula not null;

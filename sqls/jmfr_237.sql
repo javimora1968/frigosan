@@ -1,0 +1,1 @@
+alter table dba.fr_enc_rechazos modify procedencia char(8);

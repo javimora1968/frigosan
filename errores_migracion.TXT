@@ -1,0 +1,542 @@
+Library: C:\profits6\frigosan\basura.pbl
+    Object: w_fl_imp_preliminar_liquidacion
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_fl_imp_preliminar_liquidacion' conflicts with an existing global variable with this name.  The new definition of 'w_fl_imp_preliminar_liquidacion' will take precedence and the prior value will be ignored until this version of 'w_fl_imp_preliminar_liquidacion' goes out of scope
+    Object: w_po_seleccionar_cualquier_proveedor
+        Event: w_po_seleccionar_cualquier_proveedor::open
+            (0001): Error       C0001: Illegal data type: str_limites
+            (0003): Error       C0015: Undefined variable: w_limites_descripcion
+            (0004): Error       C0015: Undefined variable: limites
+            (0006): Error       C0015: Undefined variable: limites
+            (0006): Error       C0003: Condition for if statement must be a boolean
+            (0009): Error       C0003: Condition for if statement must be a boolean
+            (0013): Error       C0003: Condition for if statement must be a boolean
+            (0021): Error       C0031: Syntax error
+    Object: w_vania_limites_imprimir
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_vania_limites_imprimir' conflicts with an existing global variable with this name.  The new definition of 'w_vania_limites_imprimir' will take precedence and the prior value will be ignored until this version of 'w_vania_limites_imprimir' goes out of scope
+    Object: w_ap_tr_buscar_rango_nits
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_ap_tr_buscar_rango_nits' conflicts with an existing global variable with this name.  The new definition of 'w_ap_tr_buscar_rango_nits' will take precedence and the prior value will be ignored until this version of 'w_ap_tr_buscar_rango_nits' goes out of scope
+    Object: w_gl_tr_aju_inf_gen_comp
+        Event: w_gl_tr_aju_inf_gen_comp::ue_ajustes
+            (0016): Error       C0015: Undefined variable: w_gl_tr_esperar
+            (0025): Error       C0015: Undefined variable: w_gl_tr_esperar
+    Object: w_gl_tr_registro_nuevo_conprobante_des
+        Event: w_gl_tr_registro_nuevo_conprobante_des::ue_salvar
+            (0009): Error       C0001: Illegal data type: str_gl_tr_error_nuevo_com
+            (0249): Error       C0015: Undefined variable: com
+            (0250): Error       C0015: Undefined variable: com
+            (0251): Error       C0015: Undefined variable: w_gl_tr_errores_nuevo_com
+Library: C:\profits6\frigosan\buscar.pbl
+    Object: w_ap_tr_buscar_rango_nits
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_ap_tr_buscar_rango_nits' conflicts with an existing global variable with this name.  The new definition of 'w_ap_tr_buscar_rango_nits' will take precedence and the prior value will be ignored until this version of 'w_ap_tr_buscar_rango_nits' goes out of scope
+Library: C:\profits6\frigosan\usrobj.pbl
+    Object: lee_puertos
+        lee_puertos Class Declaration
+            (0019): Warning     C0088: Duplicate property name: commevent
+Library: C:\profits6\frigosan\frigosan.pbl
+    Object: w_bs_probar_peso
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_bs_probar_peso' conflicts with an existing global variable with this name.  The new definition of 'w_bs_probar_peso' will take precedence and the prior value will be ignored until this version of 'w_bs_probar_peso' goes out of scope
+Library: C:\profits6\frigosan\ganados.pbl
+    Object: w_fr_nuevo_pesaje_animales
+        Event: w_fr_nuevo_pesaje_animales::ue_salvar
+            (0004): Information C0148: The identifier 'error_dw' conflicts with an existing property with this name.  The new definition of 'error_dw' will take precedence and the prior value will be ignored until this version of 'error_dw' goes out of scope
+        Event: dw_2::itemchanged
+            (0003): Information C0146: The identifier 'error' conflicts with an existing global variable with this name.  The new definition of 'error' will take precedence and the prior value will be ignored until this version of 'error' goes out of scope
+            (0037): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0059): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0075): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0083): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0092): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0112): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0120): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0134): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0152): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0160): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_modificar_pesaje_animales
+        Event: w_fr_modificar_pesaje_animales::ue_salvar
+            (0004): Information C0148: The identifier 'error_dw' conflicts with an existing property with this name.  The new definition of 'error_dw' will take precedence and the prior value will be ignored until this version of 'error_dw' goes out of scope
+        Event: dw_2::itemchanged
+            (0017): Information C0146: The identifier 'error' conflicts with an existing global variable with this name.  The new definition of 'error' will take precedence and the prior value will be ignored until this version of 'error' goes out of scope
+            (0054): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0076): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0092): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0100): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0109): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0129): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0137): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0151): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0169): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0177): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_consultar_pesaje_animales
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fl_imp_preliminar_liquidacion
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_fl_imp_preliminar_liquidacion' conflicts with an existing global variable with this name.  The new definition of 'w_fl_imp_preliminar_liquidacion' will take precedence and the prior value will be ignored until this version of 'w_fl_imp_preliminar_liquidacion' goes out of scope
+    Object: w_fr_nuevo_pesaje_animales_old
+        Event: w_fr_nuevo_pesaje_animales_old::ue_salvar
+            (0004): Information C0148: The identifier 'error_dw' conflicts with an existing property with this name.  The new definition of 'error_dw' will take precedence and the prior value will be ignored until this version of 'error_dw' goes out of scope
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_modificar_pesaje_animales_old
+        Event: w_fr_modificar_pesaje_animales_old::ue_salvar
+            (0004): Information C0148: The identifier 'error_dw' conflicts with an existing property with this name.  The new definition of 'error_dw' will take precedence and the prior value will be ignored until this version of 'error_dw' goes out of scope
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\informe2.pbl
+    Object: w_fr_prgrmcion_scrfcio_mayor_h_imp
+        Event: w_fr_prgrmcion_scrfcio_mayor_h_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_prgrmcion_scrfcio_menor_h_imp
+        Event: w_fr_prgrmcion_scrfcio_menor_h_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_animales_ingreso_mayor_imp
+        Event: w_fr_animales_ingreso_mayor_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_animales_ingreso_menor_imp
+        Event: w_fr_animales_ingreso_menor_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_animales_pesados_mayor_fcha_imp
+        Event: w_fr_animales_pesados_mayor_fcha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_transferencias_fcha_imp
+        Event: w_fr_transferencias_fcha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_animales_pesados_menor_fcha_imp
+        Event: w_fr_animales_pesados_menor_fcha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_animales_intercambio_imp
+        Event: w_fr_animales_intercambio_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_transferencias_fcha_menor_imp
+        Event: w_fr_transferencias_fcha_menor_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_facturas_sin_contabilizar_imp
+        Event: w_fr_facturas_sin_contabilizar_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_facturas_contabilizadas_imp
+        Event: w_fr_facturas_contabilizadas_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+Library: C:\profits6\frigosan\informes.pbl
+    Object: w_fr_bono_recaudos_fecha_imp
+        Event: w_fr_bono_recaudos_fecha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_cheque_recaudo_fecha_imp
+        Event: w_fr_cheque_recaudo_fecha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_efectivo_recaudos_fecha_imp
+        Event: w_fr_efectivo_recaudos_fecha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_factra_bascla_fcha_imp
+        Event: w_fr_factra_bascla_fcha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_factra_sacrfcio_fcha_imp
+        Event: w_fr_factra_sacrfcio_fcha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_factra_bascla_fcha_menor_imp
+        Event: w_fr_factra_bascla_fcha_menor_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_factra_sacrfcio_fcha_menor_imp
+        Event: w_fr_factra_sacrfcio_fcha_menor_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+    Object: w_fr_recaudos_fecha_imp
+        Event: w_fr_recaudos_fecha_imp::open
+            (0001): Information C0148: The identifier 'l_parametros' conflicts with an existing property with this name.  The new definition of 'l_parametros' will take precedence and the prior value will be ignored until this version of 'l_parametros' goes out of scope
+Library: C:\profits6\frigosan\objbase.pbl
+    Object: w_vania_tabla
+        Event: dw_control::ue_entrar
+            (0002): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_control::itemerror
+            (0006): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_control::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0024): Warning     C0150: Function 'dbErrorMessage' is obsolete.  The database error message is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_vania_limites_imprimir
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_vania_limites_imprimir' conflicts with an existing global variable with this name.  The new definition of 'w_vania_limites_imprimir' will take precedence and the prior value will be ignored until this version of 'w_vania_limites_imprimir' goes out of scope
+    Object: w_sheet_tabla_1
+        Event: dw_control::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_control::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\recaudos.pbl
+    Object: w_fr_recaudo_factura_nuevo
+        Function: w_fr_recaudo_factura_nuevo::wf_validar_datos
+            (0017): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0028): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0046): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0055): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0064): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0073): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_3::itemchanged
+            (0018): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_recaudo_factura_anular
+        Event: dw_3::itemchanged
+            (0018): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\security.pbl
+    Object: w_modulos_general
+        Event: w_modulos_general::ue_actualizar
+            (0001): Information C0148: The identifier 'modulo' conflicts with an existing property with this name.  The new definition of 'modulo' will take precedence and the prior value will be ignored until this version of 'modulo' goes out of scope
+        Function: w_modulos_general::wf_insertar
+            (0001): Information C0148: The identifier 'modulo' conflicts with an existing property with this name.  The new definition of 'modulo' will take precedence and the prior value will be ignored until this version of 'modulo' goes out of scope
+    Object: w_gl_identificacion
+        Event: w_gl_identificacion::open
+            (0002): Information C0146: The identifier 'usuario' conflicts with an existing global variable with this name.  The new definition of 'usuario' will take precedence and the prior value will be ignored until this version of 'usuario' goes out of scope
+            (0002): Information C0146: The identifier 'nombre_empresa' conflicts with an existing global variable with this name.  The new definition of 'nombre_empresa' will take precedence and the prior value will be ignored until this version of 'nombre_empresa' goes out of scope
+Library: C:\profits6\frigosan\subasta.pbl
+    Object: w_fr_crear_reg_subasta
+        Event: w_fr_crear_reg_subasta::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_fr_modificar_reg_subasta
+        Event: w_fr_modificar_reg_subasta::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_fr_consultar_reg_subasta
+        Event: w_fr_consultar_reg_subasta::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_fr_crear_fact_vtas_subasta
+        Event: w_fr_crear_fact_vtas_subasta::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0027): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0031): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0041): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\transac1.pbl
+    Object: w_fr_crear_fact_sacrificio
+        Event: w_fr_crear_fact_sacrificio::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0038): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0022): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0080): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0106): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0147): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0169): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0196): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0224): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0248): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0265): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0273): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0284): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0307): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0315): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0333): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0354): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0362): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_modificar_fact_sacrificio
+        Event: w_fr_modificar_fact_sacrificio::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0021): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0060): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0079): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0105): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0120): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0140): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0168): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0186): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0203): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0211): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0222): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0245): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0253): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0266): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0287): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0295): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_anular_fact_sacrificio
+        Event: w_fr_anular_fact_sacrificio::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0021): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0060): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0079): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0105): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0120): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0140): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0168): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0186): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0203): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0211): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0222): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0245): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0253): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0266): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0287): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0295): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_consultar_fact_sacrificio
+        Event: w_fr_consultar_fact_sacrificio::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0021): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0060): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0079): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0105): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0120): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0140): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0168): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0186): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0203): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0211): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0222): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0245): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0253): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0266): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0287): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0295): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\transac2.pbl
+    Object: w_fr_crear_reg_rechazos
+        Event: w_fr_crear_reg_rechazos::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0032): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: w_fr_crear_reg_rechazos::open
+            (0037): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0033): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0077): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_consultar_reg_rechazos
+        Event: w_fr_consultar_reg_rechazos::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0027): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0033): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0077): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_mov_corrales
+        Event: w_fr_mov_corrales::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0021): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0064): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0086): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0116): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0134): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_crear_retiro_animales
+        Event: w_fr_crear_retiro_animales::ue_refrescar
+            (0004): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0022): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0070): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0091): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0123): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0144): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0174): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0191): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_nuevo_pesaje_animales_subasta
+        Event: w_fr_nuevo_pesaje_animales_subasta::ue_salvar
+            (0004): Information C0148: The identifier 'error_dw' conflicts with an existing property with this name.  The new definition of 'error_dw' will take precedence and the prior value will be ignored until this version of 'error_dw' goes out of scope
+        Event: dw_2::itemchanged
+            (0003): Information C0146: The identifier 'error' conflicts with an existing global variable with this name.  The new definition of 'error' will take precedence and the prior value will be ignored until this version of 'error' goes out of scope
+            (0037): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0059): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0075): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0083): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0092): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0112): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0120): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0134): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0152): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0160): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_modificar_pesaje_animales_subasta
+        Event: w_fr_modificar_pesaje_animales_subasta::ue_salvar
+            (0004): Information C0148: The identifier 'error_dw' conflicts with an existing property with this name.  The new definition of 'error_dw' will take precedence and the prior value will be ignored until this version of 'error_dw' goes out of scope
+        Event: dw_2::itemchanged
+            (0017): Information C0146: The identifier 'error' conflicts with an existing global variable with this name.  The new definition of 'error' will take precedence and the prior value will be ignored until this version of 'error' goes out of scope
+            (0054): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0076): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0092): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0100): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0109): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0129): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0137): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0151): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0169): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0177): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::dberror
+            (0005): Warning     C0150: Function 'dbErrorCode' is obsolete.  The database error code is now available as an event argument.
+            (0026): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_2::itemerror
+            (0001): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\transac3.pbl
+    Object: w_fr_canales
+        Event: dw_control::itemchanged
+            (0038): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0057): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0125): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0144): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_canales_out
+        Event: dw_control::itemchanged
+            (0033): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0049): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0103): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0119): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_canales_copia
+        Event: dw_control::itemchanged
+            (0034): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0053): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0117): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0136): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_habilitar_animales
+        Event: dw_1::itemchanged
+            (0030): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0053): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0061): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0079): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0100): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0108): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\transac4.pbl
+    Object: w_fr_consultar_retiro_animales
+        Event: w_fr_consultar_retiro_animales::ue_refrescar
+            (0004): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_2::itemchanged
+            (0022): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0068): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0089): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0131): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0148): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\transacc.pbl
+    Object: w_fr_crear_reg_entrada
+        Event: w_fr_crear_reg_entrada::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0031): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0046): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0060): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: w_fr_crear_reg_entrada::open
+            (0037): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0033): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0077): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_consultar_reg_entrada
+        Event: w_fr_consultar_reg_entrada::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0026): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0041): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0055): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0031): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0065): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_anular_reg_entrada
+        Event: w_fr_anular_reg_entrada::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0026): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0041): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0055): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0031): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0065): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_crear_fact_bascula
+        Event: w_fr_crear_fact_bascula::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0027): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0023): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0031): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_modificar_fact_bascula
+        Event: w_fr_modificar_fact_bascula::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0027): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0024): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0032): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_anular_fact_bascula
+        Event: w_fr_anular_fact_bascula::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0027): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_fr_consultar_fact_bascula
+        Event: w_fr_consultar_fact_bascula::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0015): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0027): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+    Object: w_fr_modificar_reg_entrada
+        Event: w_fr_modificar_reg_entrada::ue_refrescar
+            (0005): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0016): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0026): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0041): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+            (0055): Warning     C0151: Function 'dwGetChild' has been renamed to 'GetChild' (no prefix), switch to the new name
+        Event: dw_1::itemchanged
+            (0031): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0065): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+Library: C:\profits6\frigosan\usrobj.pbl
+    Object: comm
+        comm Class Declaration
+            (0019): Warning     C0088: Duplicate property name: commevent
+    Object: w_bs_probar_peso
+        Object Variable Declarations
+            (0001): Information C0146: The identifier 'w_bs_probar_peso' conflicts with an existing global variable with this name.  The new definition of 'w_bs_probar_peso' will take precedence and the prior value will be ignored until this version of 'w_bs_probar_peso' goes out of scope
+Library: C:\profits6\frigosan\basicas.pbl
+    Object: w_fr_cncptos_fctrcion_mayores
+        Event: dw_control::itemchanged
+            (0021): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0047): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0055): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0078): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0086): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0116): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0124): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0152): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0160): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_cncptos_fctrcion_menores
+        Event: dw_control::itemchanged
+            (0021): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0047): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0055): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0078): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0086): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0116): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0124): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0152): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0160): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_clientes
+        Event: dw_control::itemchanged
+            (0028): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0063): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0087): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+            (0111): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+    Object: w_fr_seleccionar_cualquier_cliente
+        Event: dw_control1::editchanged
+            (0003): Information C0149: The identifier 'fila' conflicts with an existing property with this name in the parent class.  The new definition of 'fila' will take precedence and the prior value will be ignored until this version of 'fila' goes out of scope
+    Object: w_gl_b_tabla_nits_ism
+        Event: cb_nuevo::clicked
+            (0014): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.
+        Event: dw_control::ue_nit
+            (0052): Warning     C0150: Function 'SetActionCode' is obsolete.  Use the keyword RETURN followed by the Action Code value to set.

@@ -1,0 +1,213 @@
+Publics by module
+
+MODCOMM 	size = 7111
+	_HZ                               _INIBAUDS
+	_INIPAR                           _LZ
+	_clauDirect                       _s_cleanup
+	_s_inthndlr                       _s_linestatus
+	_s_modemstatus                    _s_rcvchar
+	_s_sendchar                       _s_setup
+	_sivuit                           _timexit
+
+OACPLR  	size = 206
+	_acplr                          
+
+OACVNR  	size = 226
+	_acvnr                          
+
+OBLOQ   	size = 190
+	_bloq                           
+
+OBOBR   	size = 254
+	_bobr                           
+
+OBOBW   	size = 256
+	_bobw                           
+
+OCAR    	size = 226
+	_car                            
+
+OCATR   	size = 190
+	_catr                           
+
+OCATW   	size = 190
+	_catw                           
+
+OCAW    	size = 207
+	_caw                            
+
+OCBR    	size = 207
+	_cbr                            
+
+OCBW    	size = 207
+	_cbw                            
+
+OCDIR   	size = 210
+	_cdir                           
+
+OCFG    	size = 237
+	_cfg                            
+
+OCFGMR  	size = 230
+	_cfgmr                          
+
+OCFGMW  	size = 235
+	_cfgmw                          
+
+OCHOR   	size = 206
+	_chor                           
+
+OCLRCMD 	size = 168
+	_clrcmd                         
+
+OCLRGT  	size = 313
+	_clrgt                          
+
+OCLRMERM	size = 168
+	_clrmerm                        
+
+OCLRVNX 	size = 619
+	_clrvnx                         
+
+OCMDR   	size = 210
+	_cmdr                           
+
+OCOR    	size = 190
+	_cor                            
+
+OCOW    	size = 190
+	_cow                            
+
+ODELPLU 	size = 334
+	_delplu                         
+
+ODESPR  	size = 190
+	_despr                          
+
+ODESPW  	size = 190
+	_despw                          
+
+OFAMR   	size = 190
+	_famr                           
+
+OFAMW   	size = 190
+	_famw                           
+
+OFIMR   	size = 190
+	_fimr                           
+
+OFIMW   	size = 190
+	_fimw                           
+
+OFORMR  	size = 224
+	_formr                          
+
+OFORMW  	size = 267
+	_formw                          
+
+OIVAR   	size = 207
+	_ivar                           
+
+OIVAW   	size = 207
+	_ivaw                           
+
+OLOGOR  	size = 224
+	_logor                          
+
+OLOGOW  	size = 267
+	_logow                          
+
+OLOTR   	size = 172
+	_lotr                           
+
+OLOTW   	size = 173
+	_lotw                           
+
+OMERMR  	size = 210
+	_mermr                          
+
+OOPVNXR 	size = 230
+	_opvnxr                         
+
+OPASS   	size = 158
+	_pass                           
+
+OPLDR   	size = 194
+	_pldr                           
+
+OPLDW   	size = 194
+	_pldw                           
+
+OPLR    	size = 380
+	_plr                            
+
+OPLW    	size = 222
+	_plw                            
+
+OPRPLR  	size = 190
+	_prplr                          
+
+OPRPLW  	size = 190
+	_prplw                          
+
+ORACR   	size = 190
+	_racr                           
+
+ORACW   	size = 190
+	_racw                           
+
+ORELR   	size = 167
+	_relr                           
+
+ORELW   	size = 167
+	_relw                           
+
+OSLAR   	size = 190
+	_slar                           
+
+OSLAW   	size = 190
+	_slaw                           
+
+OSTOTIK 	size = 18354
+	_stotik                         
+
+OTCADR  	size = 198
+	_tcadr                          
+
+OTCADW  	size = 190
+	_tcadw                          
+
+OTLOTR  	size = 234
+	_tlotr                          
+
+OTLOTW  	size = 234
+	_tlotw                          
+
+OTOK    	size = 18354
+	_tok                            
+
+OTOTIK  	size = 18845
+	_ObteNomFtx                       _totik
+
+OTOTVNXR	size = 266
+	_totvnxr                        
+
+OVNR    	size = 190
+	_vnr                            
+
+OVNW    	size = 190
+	_vnw                            
+
+OVPLR   	size = 384
+	_vplr                           
+
+OVPLW   	size = 226
+	_vplw                           
+
+WRICOM  	size = 9499
+	_EsX                              _ExeCmd
+	_SetConfDirect                    _cmdEspecial
+	_com                              _display
+	_display1                         _glIntentsTimeOut
+	_linea                            _prlog
+	_timeExit                         _wridir

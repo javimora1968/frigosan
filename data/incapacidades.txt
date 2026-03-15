@@ -1,0 +1,2 @@
+id_empresa	doc_empleado	id_contingencia	fecha_inic_incpacidad	doc_incapacidad	fecha_expedicion	seccional	cab	tipo_incapacidad	id_diagnostico	fecha_acci_trabajo	dias_incapacidad	prorroga	dias_pendientes	id_usuario	fecha_registro	hora_registro	fecha_fin_incapacidad	ultimo_descuento
+01	990652	01	16/03/2002 00:00:00	953564	14/03/2002 00:00:00			A			2	N	0	JHA	22/03/2002 00:00:00	01/01/1900 10:32:22:91	17/03/2002 00:00:00	2

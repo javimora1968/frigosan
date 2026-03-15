@@ -1,0 +1,22 @@
+  SELECT dba.fr_items_recaudo.id_empresa,   
+         dba.fr_items_recaudo.id_recaudo,   
+         dba.fr_items_recaudo.num_recaudo,   
+         dba.fr_items_recaudo.consecutivo,   
+         dba.fr_items_recaudo.id_forma_pago,   
+         dba.fr_items_recaudo.id_medio_pago,   
+         dba.fr_items_recaudo.id_banco,   
+         dba.fr_items_recaudo.num_cuenta,   
+         dba.fr_items_recaudo.num_cheque,   
+         dba.fr_items_recaudo.fec_cheque,   
+         dba.fr_items_recaudo.num_bono,   
+         dba.fr_items_recaudo.valor,   
+         dba.fr_items_recaudo.bodega,   
+         dba.fr_items_recaudo.punto_pago,   
+         dba.fr_items_recaudo.prefijo,   
+         dba.fr_items_recaudo.tipo_doc_anticipo,   
+         dba.fr_items_recaudo.num_doc_anticipo,   
+         dba.fr_items_recaudo.item_anticipo,   
+         dba.fr_items_recaudo.id_bod_zona_anticipo,   
+         dba.fr_items_recaudo.vueltos  
+    FROM dba.fr_items_recaudo  
+   WHERE dba.fr_items_recaudo.num_recaudo >= 443451   ;

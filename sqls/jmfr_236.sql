@@ -1,0 +1,1 @@
+alter table dba.fr_enc_entrada modify procedencia char(8);

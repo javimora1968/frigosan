@@ -1,0 +1,1 @@
+grant all on dba.fr_log_cambio_datos_canales to digitadores;
